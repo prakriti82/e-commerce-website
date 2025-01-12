@@ -1,0 +1,33 @@
+# Logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Build directories
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS-specific files
+.DS_Store     # macOS
+Thumbs.db     # Windows
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Environment files (if any)
+.env
+
+# Cache files
+*.cache
+
+# Other common generated files
+*.min.js
+*.min.css
+*.map
