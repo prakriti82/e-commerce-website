@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ecommerce website</title>
+ <style>
+ .sectionp1{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+ }
+ </style>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<section id="header">
+  <a href='#'><img src="img/n.png" class="logo" alt="Logo"></a>
+  <div>
+    <ul id="navbar">
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li id="lg-bag"><a href="cart.html"><i class="fas fa-shopping-bag"></i></a></li>
+      <a href="#" id="close"><i class="fa fa-times"></i></a>
+    </ul>
+
+  </div>
+  <div id="mobile">
+      <i id="bar" class="fas fa-outdent"></i>
+       <a href="cart.html"><i class="fas fa-shopping-bag"></i></a>
+   
+  </div>
+</section>
+<section id="hero" >
+  <h4>Trade-in-offer</h4>
+  <h2>Super Value Deals!</h2>
+  <h1>On all products</h1>
+  <p>Save more with coupons & up to 70% off!</p>
+  <button class="button" onclick="window.location.href='shop.html';">Shop Now</button>
+</section>
+<div id="feature" class="sectionp1" style="display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap; margin-top:40px; margin-bottom:40px">
+    <div class="fe-box" style=" width: 150px; text-align: center; height: 150px; padding: 25px 15px; border: 1px solid #cce7d0; border-radius: 4px; margin: 15px 15px; box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.6);">
+        <img src="img/newfs.png" alt="" style="height: 100px; width: 100px;  margin-bottom: 10px;">
+        <h6 style="padding: 9px 8px 6px 8px; line-height: 1; border-radius: 4px; color: aquamarine; background-color: indianred; display: inline-block; justify-content:center">Free shipping</h6>
+      
+    </div>
+
+
+  <div class="fe-box" style="width: 150px; text-align: center; height: 150px; padding: 25px 15px; border: 1px solid #cce7d0; border-radius: 4px; margin: 15px 15px; box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.6);">
+    <img  src="img/onlineorder (1).png" alt="" style="height: 100px; width: 100px; margin-bottom: 10px;">
+    <h6  style="padding: 9px 8px 6px 8px; line-height: 1; border-radius: 4px; color: aquamarine; background-color: indianred; display: inline-block;justify-content:center ">online order</h6>
+  </div>
+  <div class="fe-box" style="width: 150px; text-align: center; height: 150px; padding: 25px 15px; border: 1px solid #cce7d0; border-radius: 4px; margin: 15px 15px; box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.6);">
+    <img  src="img/savemoney (1).png" alt="" style="height: 100px; width: 100px; margin-bottom: 10px;">
+    <h6 style="padding: 9px 8px 6px 8px; line-height: 1; border-radius: 4px; color: aquamarine; background-color: indianred; display: inline-block;">save money</h6>
+  </div>
+  <div class="fe-box" style="width: 150px; text-align: center; height: 150px; padding: 25px 15px; border: 1px solid #cce7d0; border-radius: 4px; margin: 15px 15px; box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.6);">
+    <img  src="img/promotions (1).png" alt="" style="height: 100px; width: 100px; margin-bottom: 10px;">
+    <h6 style="padding: 9px 8px 6px 8px; line-height: 1; border-radius: 4px; color: aquamarine; background-color: indianred; display: inline-block;">promotions</h6>
+  </div>
+  <div class="fe-box" style="width: 150px; text-align: center; height: 150px; padding: 25px 15px; border: 1px solid #cce7d0; border-radius: 4px; margin: 15px 15px; box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.6);">
+    <img  src="img/happy sell (1).png" alt="" style="height: 100px; width: 100px; margin-bottom: 10px;">
+    <h6 style="padding: 9px 8px 6px 8px; line-height: 1; border-radius: 4px; color: aquamarine; background-color: indianred; display: inline-block;">happy sell</h6>
+  </div>
+  <div class="fe-box" style="width: 150px; text-align: center; height: 150px; padding: 25px 15px; border: 1px solid #cce7d0; border-radius: 4px; margin: 15px 15px; box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.6);">
+    <img  src="img/support (1).png" alt="" style="height: 100px; width: 100px; margin-bottom: 10px;">
+    <h6 style="padding: 9px 8px 6px 8px; line-height: 1; border-radius: 4px; color: aquamarine; background-color: indianred; display: inline-block;">24/7 support</h6>
+  </div>
+</div>
+
+
+<section id="prod1" class="prodsec" style="color:#1a1a1a">
+<h2 style="color:#1a1a1a">Featured Products</h2>
+<p style="color:#1a1a1a">Unique Collection And New Trends</p>
+    <div class="pro-container">
+      <div class="pro">
+      <img src="img/clothes/c2.jpg" alt="" >
+        <div class="des">
+          <span>Adidas</span>
+          <h5>Sporty Long Sleeve Jersey</h5>
+          <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          
+          </div>
+          <h4 style="margin:15px 30px;color:#1a1a1a; font-weight:600">$18</h4>
+      </div>
+      <a href="#"><i class="fas fa-shopping-cart" style="position: absolute;
+ bottom: 20px;
+ right:10px;"></i></a>
+      </div>
+      <div class="pro">
+      <img src="img/clothes/c3.jpg" alt="" >
+        <div class="des">
+          <span>ZARA</span>
+          <h5>Black Leather jacket</h5>
+          <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          
+          </div>
+          <h4 style="margin:15px 30px;color:#1a1a1a; font-weight:600">$36</h4>
+      </div>
+      <a href="#"><i class="fas fa-shopping-cart" style="position: absolute;
+ bottom: 20px;
+ right:10px;"></i></a>
+      </div>
+      <div class="pro">
+      <img src="img/clothes/c9.jpg" alt="" >
+        <div class="des">
+          <span>Levi's</span>
+          <h5>Typography T-shirt</h5>
+          <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          
+          </div>
+          <h4 style="margin:15px 30px;color:#1a1a1a; font-weight:600">$12</h4>
+      </div>
+      <a href="#"><i class="fas fa-shopping-cart" style="position: absolute;
+ bottom: 20px;
+ right:10px;"></i></a>
+      </div>
+      <div class="pro">
+      <img src="img/clothes/c6.jpg" alt="" >
+        <div class="des">
+          <span>FOREVER 21</span>
+          <h5>Mini Denim Skirt</h5>
+          <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          
+          </div>
+          <h4 style="margin:15px 30px;color:#1a1a1a; font-weight:600">$28</h4>
+      </div>
+      <a href="#"><i class="fas fa-shopping-cart" style="position: absolute;
+ bottom: 20px;
+ right:10px;"></i></a>
+      </div>
+      <div class="pro">
+      <img src="img/clothes/c21.jpg" alt="" >
+        <div class="des">
+          <span>dressberry</span>
+          <h5>COMBO of 4 racer tops</h5>
+          <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          
+          </div>
+          <h4 style="margin:15px 30px;color:#1a1a1a; font-weight:600">$40</h4>
+      </div>
+      <a href="#"><i class="fas fa-shopping-cart" style="position: absolute;
+ bottom: 20px;
+ right:10px;"></i></a>
+      </div>
+      <div class="pro">
+      <img src="img/clothes/cx.jpg" alt="" >
+        <div class="des">
+          <span>celine</span>
+          <h5>Oversized Jacket</h5>
+          <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          
+          </div>
+          <h4 style="margin:15px 30px;color:#1a1a1a; font-weight:600">$24</h4>
+      </div>
+      <a href="#"><i class="fas fa-shopping-cart" style="position: absolute;
+ bottom: 20px;
+ right:10px;"></i></a>
+      </div>
+      <div class="pro">
+      <img src="img/clothes/c15.jpg" alt="" >
+        <div class="des">
+          <span>HNM</span>
+          <h5>Off-shoulder Top</h5>
+          <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          
+          </div>
+          <h4 style="margin:15px 30px;color:#1a1a1a; font-weight:600">$32</h4>
+      </div>
+      <a href="#"><i class="fas fa-shopping-cart" style="position: absolute;
+ bottom: 20px;
+ right:10px;"></i></a>
+      </div>
+      <div class="pro">
+      <img src="img/clothes/c13.jpg" alt="" >
+        <div class="des">
+          <span>DNMX</span>
+          <h5>Oversized Hoodie</h5>
+          <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          
+          </div>
+          <h4 style="margin:15px 30px;color:#1a1a1a; font-weight:600">$28</h4>
+      </div>
+      <a href="#"><i class="fas fa-shopping-cart" style="position: absolute;
+ bottom: 20px;
+ right:10px;"></i></a>
+      </div>
+
+     
+    
+</div>
+
+</section>
+<section id="banner" class="section-m1" >
+  <h4 style="margin-top:70px ;color:#E3E6F3;font-weight:1000">Repair Services</h4>
+  <h2 style="color:#E3E6F3; font-weight:1000"> Up to <span>70% Off</span> on ALL T-shirts and accessories</h2>
+    <button class="normal">Explore More</button>
+
+
+
+
+</section>
+
+
+<section id="prod1" class="prodsec" style="color:#1a1a1a">
+<h2 style="color:#1a1a1a">New Arrivals!</h2>
+<p style="color:#1a1a1a">Best Products At Best Prices</p>
+    <div class="pro-container">
+      <div class="pro">
+      <img src="img/clothes/a0.jpg" alt="" >
+        <div class="des">
+          <span>Urban Culture</span>
+          <h5>white t-shirt</h5>
+          <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          
+          </div>
+          <h4 style="margin:15px 30px;color:#1a1a1a; font-weight:600">$18</h4>
+      </div>
+      <a href="#"><i class="fas fa-shopping-cart" style="position: absolute;
+ bottom: 20px;
+ right:10px;"></i></a>
+      </div>
+      <div class="pro">
+      <img src="img/clothes/a1.jpg" alt="" >
+        <div class="des">
+          <span>DNMS</span>
+          <h5>HOODIE</h5>
+          <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          
+          </div>
+          <h4 style="margin:15px 30px;color:#1a1a1a; font-weight:600">$36</h4>
+      </div>
+      <a href="#"><i class="fas fa-shopping-cart" style="position: absolute;
+ bottom: 20px;
+ right:10px;"></i></a>
+      </div>
+      <div class="pro">
+      <img src="img/clothes/a2.jpg" alt="" >
+        <div class="des">
+          <span>StarStyles</span>
+          <h5>HOODIE</h5>
+          <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          
+          </div>
+          <h4 style="margin:15px 30px;color:#1a1a1a; font-weight:600">$12</h4>
+      </div>
+      <a href="#"><i class="fas fa-shopping-cart" style="position: absolute;
+ bottom: 20px;
+ right:10px;"></i></a>
+      </div>
+      <div class="pro">
+      <img src="img/clothes/a3.jpg" alt="" >
+        <div class="des">
+          <span>BlueHue</span>
+          <h5>T-shirt</h5>
+          <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          
+          </div>
+          <h4 style="margin:15px 30px;color:#1a1a1a; font-weight:600">$28</h4>
+      </div>
+      <a href="#"><i class="fas fa-shopping-cart" style="position: absolute;
+ bottom: 20px;
+ right:10px;"></i></a>
+      </div>
+      <div class="pro">
+      <img src="img/clothes/a4.jpg" alt="" >
+        <div class="des">
+          <span>InVogue</span>
+          <h5>Blue HOODIE</h5>
+          <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          
+          </div>
+          <h4 style="margin:15px 30px;color:#1a1a1a; font-weight:600">$40</h4>
+      </div>
+      <a href="#"><i class="fas fa-shopping-cart" style="position: absolute;
+ bottom: 20px;
+ right:10px;"></i></a>
+      </div>
+      <div class="pro">
+      <img src="img/clothes/a5.jpg" alt="" >
+        <div class="des">
+          <span>Craftedchic</span>
+          <h5>Vest Sweater</h5>
+          <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          
+          </div>
+          <h4 style="margin:15px 30px;color:#1a1a1a; font-weight:600">$24</h4>
+      </div>
+      <a href="#"><i class="fas fa-shopping-cart" style="position: absolute;
+ bottom: 20px;
+ right:10px;"></i></a>
+      </div>
+      <div class="pro">
+      <img src="img/clothes/a8.jpg" alt="" >
+        <div class="des">
+          <span>Savvy</span>
+          <h5>Fitted Top</h5>
+          <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          
+          </div>
+          <h4 style="margin:15px 30px;color:#1a1a1a; font-weight:600">$32</h4>
+      </div>
+      <a href="#"><i class="fas fa-shopping-cart" style="position: absolute;
+ bottom: 20px;
+ right:10px;"></i></a>
+      </div>
+      <div class="pro">
+      <img src="img/clothes/a7.jpg" alt="" >
+        <div class="des">
+          <span>DNMX</span>
+          <h5>Oversized Hoodie Jacket</h5>
+          <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          
+          </div>
+          <h4 style="margin:15px 30px;color:#1a1a1a; font-weight:600">$28</h4>
+      </div>
+      <a href="#"><i class="fas fa-shopping-cart" style="position: absolute;
+ bottom: 20px;
+ right:10px;"></i></a>
+      </div>
+
+     
+    
+  
+</div>
+</section>
+<section id="sm-banner" class="section-p1" >
+  <div class="banbox" style="margin-left:60px;margin-bottom:20px ;margin-top:70px" >
+    <h4 style="color:#68686a;margin-top: 50px;margin-left:20px;"> crazy deals</h4>
+    <h2 style="color:#68686a;margin-top: 50px;margin-left:20px;">buy 1 get 1 free</h2>
+    <span style="color:#68686a;margin-top: 50px;margin-left:20px;">The Best Classic Dress Sale At NOVA</span>
+      <button class="white" style="margin-left:20px;">Learn more</button>
+  </div>
+  <div class="banbox2" style="margin-right:60px;margin-bottom:20px;margin-top:70px">
+    <h4 style="margin-top: 50px;margin-left:20px;">Winters/autumn</h4>
+    <h2 style="margin-top: 50px;margin-left:20px;">Upcoming season</h2>
+    <span style="margin-top: 50px;margin-left:20px;">The Best Classic Dress Sale At NOVA</span>
+      <button class="white" style="margin-left:20px;">Collection</button>
+  </div>
+
+
+</section>
+<section id="ban3">
+<div class="banbox" style="margin-left:30px;margin-bottom:20px ;margin-top:70px" >
+   <h2 style="font-size:30px;color:chocolate;margin-top: 50px;margin-left:0px;">Seasonal Deals</h2>
+   <h3 style="font-size:15px;color:red;">Winter collection -60% OFF</h3>
+   </div>
+   <div class="banbox-22" style="margin-left:30px;margin-bottom:20px ;margin-top:70px" >
+   <h2 style="font-size:30px;color:chocolate;margin-top: 50px;margin-left:0px;">Footwear</h2>
+   <h3 style="font-size:15px;color:red;">Upto 50% OFF</h3>
+   </div>
+   <div class="banbox-33" style="margin-right:30px;margin-left:30px;margin-bottom:20px ;margin-top:70px" >
+   <h2 style="font-size:30px;color:chocolate;margin-top: 50px;margin-left:0px;">Tops & more</h2>
+   <h3 style="font-size:15px;color:red;">New & Trendy</h3>
+   </div>
+</section>
+<section id="newsletter">
+  <div class="newstext" >
+    <h4 style="color:crimson;font-size:30px;font-weight:1200;margin-top:50px;margin-left:30px;">Sign up for newsletters</h4>
+    <p style="color:indianred;font-size:20px;font-weight:900;margin-top:30px;margin-left:30px;">Get E-mail updates about our latest shop and <span style="color:gold">special offers</span> </p>
+  </div>
+  <div class="form">
+    <input type="text" placeholder="Your e-mail address">
+    <button class="normal">Sign Up</button>
+  
+  </div>
+
+
+</section >
+
+<footer style="padding: 30px 50px">
+<div class="col">
+  <img src="img/n.png" alt="">
+  <h4 style="color:black;margin-top:10px;margin-left:20px;">Contact</h4>
+  <p  style="color:black;margin-top:10px;margin-left:20px;"><strong>Address:</strong> Delhi,India</p>
+  <p  style="color:black;margin-top:10px;margin-left:20px;"><strong>Phone:</strong> +91 140 123 1234</p>
+<p  style="color:black;margin-top:10px;margin-left:20px;"><strong>Hours:</strong>10:00 -18:00,Mon - Sat</p>
+  <div class="follow">
+  <h4 style="color:black;margin-top:25px; margin-left:15px;">Follow us</h4>
+  <div class="icon">
+    <i style="margin-left:15px;" class="fab fa-facebook-f"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-pinterest-p"></i>
+    <i class="fab fa-youtube"></i>
+  </div>
+
+  </div>
+</div>
+<div class="col">
+  <h4 style="color:black;font-weight:800;margin-top:45px; margin-bottom:10px;">About</h4>
+  <a href="#">About Us</a>
+  <a href="#">Delivery Information</a>
+  <a href="#">Privacy Policy</a>
+  <a href="#">Terms & conditions</a>
+  <a href="#">Contact Us</a>
+
+</div>
+<div class="col">
+  <h4 style="color:black;font-weight:800;margin-top:45px; margin-bottom:10px;">My account</h4>
+  <a href="#">Sign In</a>
+  <a href="#">View cart</a>
+  <a href="#">My wishlist</a>
+  <a href="#">Track my order</a>
+  <a href="#">Help</a>
+
+</div>
+<div class="colinstall">
+<h4 style="color:black;font-weight:900;margin-top:45px; margin-bottom:10px;">Install App</h4>
+<p style="margin-left:-45px;color:black;">From App store or Google Play</p>
+<div class="row">
+ <img style="height:100px;width:140px;margin-left:-45px;" src="img/play.png" alt="">
+
+</div>
+
+</div>
+
+
+</footer>
+<script src="index.js"></script>
+</body>
+</html>

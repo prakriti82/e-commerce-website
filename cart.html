@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ecommerce website</title>
+ <style>
+ .sectionp1{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+ }
+ </style>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<section id="header">
+  <a href='#'><img src="img/n.png" class="logo" alt="Logo"></a>
+  <div>
+    <ul id="navbar">
+      <li><a  href="index.html">Home</a></li>
+      <li><a  href="shop.html">Shop</a></li>
+      <li><a  href="blog.html">Blog</a></li>
+      <li><a  href="about.html">About</a></li>
+      <li><a  href="contact.html">Contact</a></li>
+      <li id="lg-bag"><a class="active" href="cart.html"><i class="fas fa-shopping-bag"></i></a></li>
+      <a href="#" id="close"><i class="fa fa-times"></i></a>
+    </ul>
+
+  </div>
+  <div id="mobile">
+      <i id="bar" class="fas fa-outdent"></i>
+       <a href="cart.html"><i class="fas fa-shopping-bag"></i></a>
+   
+  </div>
+</section>
+<section id="pageheader" class="cartheader">
+ 
+  <h2 style="color:black;">#Cart</h2>
+  
+  <p style="color:black;">Use Coupons and save upto 70%!</p>
+  
+</section>
+
+<section id="cart" class="section-p1">
+<table width="100%">
+  <thead>
+    <tr>
+      <td>Remove</td>
+      <td>Image</td>
+      <td>Product</td>
+      <td>Price</td>
+      <td>Quantity</td>
+      <td>Subtotal</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><i class="fa fa-times-circle" aria-hidden="true"></i><a href="#"></a></td>
+      <td><img src="img/clothes/c8.jpg"></td>
+      <td>Premium Jorts</td>
+      <td>$30</td>
+      <td><input type="number" value="1"></td>
+      <td>$30</td>
+    </tr>
+    <tr>
+      <td><i class="fa fa-times-circle" aria-hidden="true"></i><a href="#"></a></td>
+      <td><img src="img/clothes/a6.jpg"></td>
+      <td>Fitted top</td>
+      <td>$18</td>
+      <td><input type="number" value="1"></td>
+      <td>$30</td>
+    </tr>
+    <tr>
+      <td><i class="fa fa-times-circle" aria-hidden="true"></i><a href="#"></a></td>
+      <td><img src="img/clothes/a7.jpg"></td>
+      <td>Oversized Hoodie Jacket</td>
+      <td>$36</td>
+      <td><input type="number" value="1"></td>
+      <td>$30</td>
+    </tr>
+    <tr>
+      <td><i class="fa fa-times-circle" aria-hidden="true"></i><a href="#"></a></td>
+      <td><img src="img/clothes/c7.jpg"></td>
+      <td>Racer Jacket</td>
+      <td>$28</td>
+      <td><input type="number" value="1"></td>
+      <td>$30</td>
+    </tr>
+  </tbody>
+</table>
+
+
+</section>
+<section id="cartadd" class="section-p1">
+  <div id="coupon">
+  <h3>Apply Coupons</h3>
+  <div>
+  
+  <input type="text" placeholder="enter your coupon">
+  <button class="normal" style="background-color: #088178;color:white;">Apply</button>
+  </div>
+  </div>
+  <div id="subtotal">
+  <h3>Cart total</h3>
+  <table>
+  <tr>
+    <td>Cart subtotal</td>
+    <td>$335</td>
+  </tr>
+  <tr>
+  <td>Shipping</td>
+  <td>Free</td>
+  </tr>
+  <tr>
+    <td><strong>Total</strong></td>
+    <td><strong>$335</strong></td>
+  </tr>
+  </table>
+  <button class="normal" style="background-color: #088178;color:white;">Proceed to checkout</button>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+<section id="newsletter">
+  <div class="newstext" >
+    <h4 style="color:crimson;font-size:30px;font-weight:1200;margin-top:50px;margin-left:30px;">Sign up for newsletters</h4>
+    <p style="color:indianred;font-size:20px;font-weight:900;margin-top:30px;margin-left:30px;">Get E-mail updates about our latest shop and <span style="color:gold">special offers</span> </p>
+  </div>
+  <div class="form">
+    <input type="text" placeholder="Your e-mail address">
+    <button class="normal">Sign Up</button>
+  
+  </div>
+
+
+</section >
+
+<footer style="padding: 30px 50px">
+<div class="col">
+  <img src="img/n.png" alt="">
+  <h4 style="color:black;margin-top:10px;margin-left:20px;">Contact</h4>
+  <p  style="color:black;margin-top:10px;margin-left:20px;"><strong>Address:</strong> Delhi,India</p>
+  <p  style="color:black;margin-top:10px;margin-left:20px;"><strong>Phone:</strong> +91 140 123 1234</p>
+<p  style="color:black;margin-top:10px;margin-left:20px;"><strong>Hours:</strong>10:00 -18:00,Mon - Sat</p>
+  <div class="follow">
+  <h4 style="color:black;margin-top:25px; margin-left:15px;">Follow us</h4>
+  <div class="icon">
+    <i style="margin-left:15px;" class="fab fa-facebook-f"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-pinterest-p"></i>
+    <i class="fab fa-youtube"></i>
+  </div>
+
+  </div>
+</div>
+<div class="col">
+  <h4 style="color:black;font-weight:800;margin-top:45px; margin-bottom:10px;">About</h4>
+  <a href="#">About Us</a>
+  <a href="#">Delivery Information</a>
+  <a href="#">Privacy Policy</a>
+  <a href="#">Terms & conditions</a>
+  <a href="#">Contact Us</a>
+
+</div>
+<div class="col">
+  <h4 style="color:black;font-weight:800;margin-top:45px; margin-bottom:10px;">My account</h4>
+  <a href="#">Sign In</a>
+  <a href="#">View cart</a>
+  <a href="#">My wishlist</a>
+  <a href="#">Track my order</a>
+  <a href="#">Help</a>
+
+</div>
+<div class="colinstall">
+<h4 style="color:black;font-weight:900;margin-top:45px; margin-bottom:10px;">Install App</h4>
+<p style="margin-left:-45px;color:black;">From App store or Google Play</p>
+<div class="row">
+ <img style="height:100px;width:140px;margin-left:-45px;" src="img/play.png" alt="">
+
+</div>
+
+</div>
+
+
+</footer>
+<script src="index.js"></script>
+</body>
+</html>
