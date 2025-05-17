@@ -16,16 +16,25 @@ This project is a basic ecommerce website built using HTML, CSS, and JavaScript.
 * **Newsletter Subscription:** Allows users to subscribe to the newsletter for updates and offers.
 * **Footer:** Includes company contact information.
 
-## File Structure
+# Project File Structure
 
 ```
-/Project
-│── index.html      # Main HTML file
-│── styles.css      # Stylesheet
-│── img/            # Images used in the project
-│── fonts/          # Font files (optional)
-│── js/             # JavaScript files (optional)
+img/               # Directory for images
+.gitignore         # Git ignore file
+README.md          # Project documentation
+about.html         # About page
+blog.html          # Blog page
+cart.html          # Cart page
+contact.html       # Contact page
+index.html         # Main landing page
+index.js           # JavaScript file for handling logic
+secondpage.html    # Secondary page
+shop.html          # Shop page
+sproduct.html      # Single product page
+styles.css         # Main CSS file for styling
 ```
+
+
 
 ## Technologies Used
 
